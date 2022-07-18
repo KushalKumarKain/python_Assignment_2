@@ -6,6 +6,7 @@ class armstrong(ABC):
    def run(self):
       pass
 number = int(input("Enter number of choice : "))
+
 class arm(armstrong):
    def run(self, number):
      
@@ -14,7 +15,7 @@ class arm(armstrong):
     temp = number
     while temp > 0:
       digit = temp % 10
-      sum += digit ** 3
+      sum += digit ** len(str(number))
       temp //= 10
 
     # display the result
