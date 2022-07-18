@@ -1,4 +1,7 @@
 import options
+
+print("This loop runs once only.")
+
 while True:
   option= int(input('''
   1. Fibonacci Sequence 
