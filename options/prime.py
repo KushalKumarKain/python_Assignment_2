@@ -1,10 +1,5 @@
-from abc import ABC,abstractmethod
-import numbers
+from ..base import PRIME
 
-class PRIME(ABC):
-   @abstractmethod
-   def run(self):
-      pass
 number = int(input("Enter number of choice : "))
 class prime(PRIME):
    def run(self, number):

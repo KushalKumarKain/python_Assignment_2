@@ -1,10 +1,5 @@
-from abc import ABC,abstractmethod
-import numbers
+from ..base import armstrong
 
-class armstrong(ABC):
-   @abstractmethod
-   def run(self):
-      pass
 number = int(input("Enter number of choice : "))
 
 class arm(armstrong):
