@@ -1,7 +1,8 @@
-from ..base import PRIME
+# from . import base
+from base import main_abstract
 
 number = int(input("Enter number of choice : "))
-class prime(PRIME):
+class prime(main_abstract):
    def run(self, number):
 
 # Number is prime or not

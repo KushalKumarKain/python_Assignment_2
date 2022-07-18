@@ -1,7 +1,8 @@
-from ..base import fibonacci
+# from . import base
+from base import main_abstract
 
 number = int(input("Enter number of choice : "))
-class fibo(fibonacci):
+class fibo(main_abstract):
    def run(self, number):
 
       n1 = 0

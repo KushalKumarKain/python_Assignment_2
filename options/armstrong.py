@@ -1,8 +1,9 @@
-from ..base import armstrong
+# from . import base
+from base import main_abstract
 
 number = int(input("Enter number of choice : "))
 
-class arm(armstrong):
+class arm(main_abstract):
    def run(self, number):
      
     sum = 0
